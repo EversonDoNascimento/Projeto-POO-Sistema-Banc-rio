@@ -89,7 +89,7 @@ public class Cliente {
 	}
 
 	
-	@Override
+	
 	public int hashCode() {
 		return Objects.hash(conta, cpf);
 	}
@@ -97,7 +97,7 @@ public class Cliente {
 
 
 
-	@Override
+	
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
