@@ -64,7 +64,7 @@ public class Cliente {
 			for(Cliente c: clientes) {
 				 if(c.getCpf().equals(numero)) {
 	                    temp = c;
-				 }else {System.out.println("Conta não existe");}
+				 }
 			}
 		}
 		return temp;
