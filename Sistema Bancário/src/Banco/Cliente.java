@@ -74,19 +74,6 @@ public class Cliente {
 		this.conta = conta;
 	}
 	
-	
-	public static void adicionarConta(String numero, Cliente cliente) {
-		Cliente tempCliente = Cliente.encontrarCpf(numero);
-		if(clientes.contains(tempCliente)) {
-			int index = clientes.indexOf(tempCliente);
-			System.out.println("Cliente existe"
-					+ "" + index);
-			clientes.add(index, cliente);
-			
-;
-		}
-		
-	}
 
 	
 	
